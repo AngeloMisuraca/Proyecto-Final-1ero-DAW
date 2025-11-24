@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTONE</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="./recursos/favicon.ico" type="image/x-icon">
+    <audio autoplay loop>
+        <source src="./recursos/fractalixtone.mp3" type="audio/mpp3">
+    </audio>
+    <form action="https://formspree.io/f/mldpowza" method="post" enctype="multipart/form-data"></form>
+</head>
+
+<body>
+    <header id="encabezado">
+        <a href="index.html">       
+        <img id="logo1" src="./recursos/logo1.png" alt="">
+        </a>
+        <img class="d1" id="descuento15" src="./recursos/descuento15.gif" alt="">
+        <img class="d2" id="descuento15" src="./recursos/descuento15.gif" alt="">
+        <img class="d3" id="descuento15" src="./recursos/descuento15.gif" alt="">
+        <img id="fondocompleto"
+            src="./recursos/youtube_Bullet For My Valentine - Hearts Burst Into Fire (Official Video).gif" alt="">
+            <a href="index.html">
+                <img id="logo" src="./recursos/logo2.png">
+            </a>
+
+        <div id="zona-usuario">
+            <input type="checkbox" id="interruptor-usuario">
+
+            <label for="interruptor-usuario" id="boton-usuario">
+                <img id="icono-usuario"
+                    src="./recursos/png-clipart-computer-icons-button-login-image-file-formats-logo-removebg-preview.png">
+                <img src="./recursos/" alt="">
+            </label>
+
+            <div id="panel-usuario">
+                <form id="formulario-inicio">
+                    <fieldset>
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" placeholder="correo@ejemplo.com" required>
+                    
+                        <label for="clave">Contraseña</label>
+                        <input type="password" id="clave" placeholder="Tu contraseña" required>
+                    
+                        <a id="olvido-clave" href="./Registro.html">¿Has olvidado tu contraseña?</a>
+                    
+                        <button id="boton-entrar" type="submit">Entrar</button>
+                    
+                        <hr>
+                    
+                        <a id="ir-registro" href="./Registro.html">Crear cuenta nueva</a>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="contenedor-carrusel-productos">
+
+        <div class="par-producto">
+            <img class="carrusel-img" src="./recursos/LEYENDA DE LOS 90S EL MESA BOOGIE.gif" alt="Imagen 1">
+            <div class="producto-info">
+                <img src="./recursos/19764104.png" alt="Producto 1">
+                <p>Mesa Boogie 90s Dual Rectifier</p>
+                <a href="#mesa-vintage" class="enlace-carrusel">
+                    <button>Ver Oferta</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="par-producto">
+            <img class="carrusel-img" src="./recursos/videoplayback.gif" alt="Imagen 2">
+            <div class="producto-info">
+                <img src="./recursos/pedal jeff.png" alt="Producto 2">
+                <p>Devils Triad OD/BST/REV/DEL</p>
+                <a href="#devils-jeff" class="enlace-carrusel">
+                    <button>Ver Oferta</button>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="par-producto">
+            <img class="carrusel-img" src="./recursos/guitarra.gif" alt="Imagen 3">
+            <div class="producto-info">
+                <img src="./recursos/jackson-purple.png" alt="Producto 3">
+                <p>Jackson Series Rhoads RR24Q Purple</p>
+                <a href="#jackson-purpleG" class="enlace-carrusel">
+                    <button>Ver Oferta</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <nav id="barra-navegacion">
+        <div class="izquierda">
+            <button id="boton-hotdeals">Hot Deals</button>
+            <button id="boton-nuevos">Nuevos Productos</button>
+        </div>
+
+        <div class="centro">
+            <input type="text" id="barra-busqueda" placeholder="Buscar productos...">
+        </div>
+
+        <div class="derecha">
+            <button id="boton-idioma">ES/EN</button>
+            <button id="boton-modo">🌞/🌙</button>
+            <button id="boton-favoritos">❤️</button>
+            <button id="boton-carrito">🛒</button>
+        </div>
+    </nav>
+    <div class="contenedor-tienda">
+        <aside class="barra-filtros">
+
+            <div class="filtro-encabezado">
+                <h3>Filtros</h3>
+                <button class="btn-reset">Borrar filtros</button>
+            </div>
+
+            <details open class="filtro-grupo">
+                <summary>Fabricante <span>▼</span></summary>
+                <div class="filtro-contenido">
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Jackson <span class="cantidad">(13)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Fender <span class="cantidad">(45)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Squier <span class="cantidad">(32)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Epiphone <span class="cantidad">(28)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Ibanez <span class="cantidad">(21)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Gibson <span class="cantidad">(15)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Solar <span class="cantidad">(9)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Harley Benton<span class="cantidad">(7)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        ESP LTD <span class="cantidad">(5)</span>
+                    </label>
+                </div>
+            </details>
+
+            <hr class="separador">
+
+            <details open class="filtro-grupo">
+                <summary>Precio <span>▼</span></summary>
+                <div class="filtro-contenido">
+                    <div class="rango-precios">
+                        <input type="number" value="85" class="input-precio">
+                        <span>-</span>
+                        <input type="number" value="2500" class="input-precio">
+                    </div>
+                    <button class="btn-aplicar">Aplicar Filtro</button>
+                </div>
+            </details>
+
+            <hr class="separador">
+
+            <details open class="filtro-grupo">
+                <summary>Diseño <span>▼</span></summary>
+                <div class="filtro-contenido">
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Modelos ST <span class="cantidad">(Estilo Strat)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Modelos T <span class="cantidad">(Estilo Tele)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Single Cut <span class="cantidad">(Estilo Les Paul)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Double Cut <span class="cantidad">(Estilo SG)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Heavy <span class="cantidad">(Explorer/V)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Zurdos <span class="cantidad">(Left Handed)</span>
+                    </label>
+                </div>
+            </details>
+
+            <hr class="separador">
+
+            <details open class="filtro-grupo">
+                <summary>Color <span>▼</span></summary>
+                <div class="filtro-contenido grid-colores">
+                    <label class="color-option" style="--bg-color: #000;" title="Negro">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #fff;" title="Blanco">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #b71c1c;" title="Rojo Vino">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #1a237e;" title="Azul">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #f57f17;" title="Sunburst">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #4e342e;" title="Natural/Madera">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #888;" title="Plateado">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                    <label class="color-option" style="--bg-color: #39ff14;" title="Neon">
+                        <input type="checkbox">
+                        <span class="circulo"></span>
+                    </label>
+                </div>
+            </details>
+
+            <hr class="separador">
+
+            <details class="filtro-grupo">
+                <summary>Pastillas <span>▼</span></summary>
+                <div class="filtro-contenido">
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        HH <span class="cantidad">(2 Humbuckers)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        SSS <span class="cantidad">(3 Single Coil)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        HSS <span class="cantidad">(Humbucker + 2 Single)</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        P90 <span class="cantidad">(Soapbar)</span>
+                    </label>
+                </div>
+            </details>
+
+            <hr class="separador">
+
+            <details class="filtro-grupo">
+                <summary>Disponibilidad <span>▼</span></summary>
+                <div class="filtro-contenido">
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        En stock inmediato
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Novedades
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox">
+                        <span class="indicador"></span>
+                        Ofertas (Hot Deals)
+                    </label>
+                </div>
+            </details>
+
+        </aside>     
+    </div>
+
+    <main>
+        <form id="formulario-registro">
+            <h3>Regístrate Gratis!</h3>
+            <fieldset>
+            <label for="correo">Correo electrónico (*)</label>
+            <input type="email" id="correo" placeholder="correo@ejemplo.com" required>
+        
+            <label for="clave">Contraseña (*)</label>
+            <input type="password" pattern=".{6,} id="clave"  placeholder="Tu contraseña" required >
+
+            <label for="edad">Edad</label>
+            <input type="date" id="edad" min="18" max="99">
+
+            <label for="Genero">Género: (*)</label>
+
+            <div>
+            <input type="radio" value="M" id="Masculino" name="Genero" required>
+            <label for="Masculino">Masculino</label>
+            
+            <input type="radio" value="F" id="Femenino" name="Genero">
+            <label for="Femenino">Femenino</label>
+            
+            <input type="radio" value="O" id="otro" name="Genero">
+            <label for="Otro">Otro</label>
+            </div>
+
+            <div>
+            <label for="condiciones">Aceptas los terminos y condiciones? (*)</label>
+            <input type="checkbox" id="condiciones" required>
+            </div>
+            
+            <button id="boton-entrar" type="submit">Entrar</button>
+            <label for="limpiar"></label>
+            <input type="reset" value="Limpiar">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="pie-pagina">
+        <div class="footer-contenido">
+
+            <div class="footer-columna">
+                <h3>Atención al Cliente</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Reportar Incidencia</a></li>
+                    <li><a href="#">Centro de Ayuda / FAQ</a></li>
+                    <li><a href="#">Seguimiento de Pedido</a></li>
+                    <li><a href="#">Devoluciones y Garantía</a></li>
+                    <li><a href="#">Contacto Directo</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>FTONE Corporate</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Trabaja con Nosotros</a> <span class="badge-mini">Hiring</span></li>
+                    <li><a href="#">Nuestras Tiendas (Mapa)</a></li>
+                    <li><a href="#">Sobre la Marca</a></li>
+                    <li><a href="#">Programa de Afiliados</a></li>
+                    <li><a href="#">Prensa y Medios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                    <li><a href="#">Aviso Legal</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-columna newsletter-box">
+                <h3>Únete al Culto</h3>
+                <p>Recibe ofertas exclusivas, lanzamientos de guitarras y noticias del metal.</p>
+                <form class="form-newsletter">
+                    <fieldset>
+                        <input type="email" placeholder="Tu correo electrónico..." required>
+                        <button type="submit">Suscribirse</button>
+                    </fieldset>
+                </form>
+                <div class="redes-sociales">
+                    <a href="#" title="Instagram">📸</a>
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="YouTube">▶️</a>
+                    <a href="#" title="Twitter">🐦</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 FTONE Guitar Store. Todos los derechos reservados. | Diseñado para el Rock.</p>
+            <div class="pagos">
+                <span>💳 Visa</span>
+                <span>💳 Master</span>
+                <span>💳 PayPal</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
