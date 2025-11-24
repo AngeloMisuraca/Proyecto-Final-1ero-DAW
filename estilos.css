@@ -14,9 +14,6 @@ body {
     position: relative;
 }
 
-/* ==========================
-   1. FONDO
-========================== */
 #fondocompleto {
     position: absolute;
     top: 80px;
@@ -28,11 +25,6 @@ body {
     z-index: 0;
 }
 
-/* ==========================
-   2. HEADER
-========================== */
-/* HEADER */
-/* HEADER */
 #encabezado {
     position: relative;
     height: 80px;
@@ -40,34 +32,27 @@ body {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     padding: 0 20px;
-    z-index: 10;
+    z-index: 201;
 }
 
-/* CONTENEDOR PARA ELEMENTOS FLOTANTES */
 #flotantes {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 0;
-    /* solo sirve como referencia */
-    z-index: 999;
-    /* encima del header */
+    z-index: 99;
 }
 
-/* LOGO CENTRAL */
 #logo {
     position: absolute;
-    /* relativo al contenedor #flotantes */
     top: -150px;
-    /* ajusta según quieras que sobresalga */
     left: 50%;
     transform: translateX(-50%);
     width: 400px;
     height: auto;
 }
 
-/* LOGO IZQUIERDO */
 #logo1 {
     position: absolute;
     top: 10px;
@@ -76,7 +61,6 @@ body {
     height: 55px;
 }
 
-/* ZONA USUARIO */
 #zona-usuario {
     position: absolute;
     top: 10px;
@@ -104,7 +88,7 @@ body {
     position: absolute;
     top: 60px;
     right: 0;
-    width: 270px;
+    width: 220px;
     background: rgb(235, 225, 205);
     border-radius: 8px;
     box-shadow: 0px 3px 10px rgba(40, 40, 40);
@@ -226,9 +210,9 @@ fieldset {
 }
 
 .carrusel-img {
+    display: grid;
     position: relative;
     width: 100%;
-    /* Ocupa el ancho de su celda de grid */
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
@@ -253,15 +237,12 @@ fieldset {
 
 
 .producto-info {
-    /* Ajustes para que la tarjeta de info se vea bien */
     position: absolute;
     bottom: 120px;
-    /* Lo bajamos un poco */
     background-color: rgba(20, 20, 20, 0.9);
     border-radius: 10px;
     padding: 15px;
     width: 80%;
-    /* Un poco menos que la imagen */
     text-align: center;
     border: 1px solid rgba(128, 97, 158, 0.5);
     transition: transform 0.3s ease;
@@ -307,7 +288,7 @@ fieldset {
     align-items: center;
     background-color: rgb(235, 225, 205);
     padding: 10px 20px;
-    z-index: 100;
+    z-index: 1000;
     box-shadow: 0 2px 5px rgba(233, 187, 62, 0.627);
 }
 
